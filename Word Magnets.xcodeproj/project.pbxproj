@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFA419B11CCC38380002FEC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA419B01CCC38380002FEC2 /* AppDelegate.swift */; };
+		BFA419B31CCC38380002FEC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA419B21CCC38380002FEC2 /* ViewController.swift */; };
+		BFA419B61CCC38380002FEC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA419B41CCC38380002FEC2 /* Main.storyboard */; };
+		BFA419B81CCC38380002FEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA419B71CCC38380002FEC2 /* Assets.xcassets */; };
+		BFA419BB1CCC38380002FEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA419B91CCC38380002FEC2 /* LaunchScreen.storyboard */; };
+		BFA419C61CCC38380002FEC2 /* Word_MagnetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA419C51CCC38380002FEC2 /* Word_MagnetsTests.swift */; };
+		BFA419D11CCC38380002FEC2 /* Word_MagnetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA419D01CCC38380002FEC2 /* Word_MagnetsUITests.swift */; };
+		BFA419DF1CCC41820002FEC2 /* 518079-background-hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFA419DE1CCC41820002FEC2 /* 518079-background-hd.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA419C21CCC38380002FEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA419A51CCC38380002FEC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA419AC1CCC38380002FEC2;
+			remoteInfo = "Word Magnets";
+		};
+		BFA419CD1CCC38380002FEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA419A51CCC38380002FEC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA419AC1CCC38380002FEC2;
+			remoteInfo = "Word Magnets";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFA419AD1CCC38380002FEC2 /* Word Magnets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Magnets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA419B01CCC38380002FEC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFA419B21CCC38380002FEC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFA419B51CCC38380002FEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFA419B71CCC38380002FEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA419BA1CCC38380002FEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFA419BC1CCC38380002FEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA419C11CCC38380002FEC2 /* Word MagnetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word MagnetsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA419C51CCC38380002FEC2 /* Word_MagnetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_MagnetsTests.swift; sourceTree = "<group>"; };
+		BFA419C71CCC38380002FEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA419CC1CCC38380002FEC2 /* Word MagnetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word MagnetsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA419D01CCC38380002FEC2 /* Word_MagnetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_MagnetsUITests.swift; sourceTree = "<group>"; };
+		BFA419D21CCC38380002FEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA419DE1CCC41820002FEC2 /* 518079-background-hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "518079-background-hd.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA419AA1CCC38380002FEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA419BE1CCC38380002FEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA419C91CCC38380002FEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA419A41CCC38380002FEC2 = {
+			isa = PBXGroup;
+			children = (
+				BFA419AE1CCC38380002FEC2 /* Products */,
+				BFA419AF1CCC38380002FEC2 /* Word Magnets */,
+				BFA419C41CCC38380002FEC2 /* Word MagnetsTests */,
+				BFA419CF1CCC38380002FEC2 /* Word MagnetsUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA419AE1CCC38380002FEC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA419AD1CCC38380002FEC2 /* Word Magnets.app */,
+				BFA419C11CCC38380002FEC2 /* Word MagnetsTests.xctest */,
+				BFA419CC1CCC38380002FEC2 /* Word MagnetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA419AF1CCC38380002FEC2 /* Word Magnets */ = {
+			isa = PBXGroup;
+			children = (
+				BFA419B01CCC38380002FEC2 /* AppDelegate.swift */,
+				BFA419B21CCC38380002FEC2 /* ViewController.swift */,
+				BFA419B41CCC38380002FEC2 /* Main.storyboard */,
+				BFA419B71CCC38380002FEC2 /* Assets.xcassets */,
+				BFA419DE1CCC41820002FEC2 /* 518079-background-hd.jpg */,
+				BFA419B91CCC38380002FEC2 /* LaunchScreen.storyboard */,
+				BFA419BC1CCC38380002FEC2 /* Info.plist */,
+			);
+			path = "Word Magnets";
+			sourceTree = "<group>";
+		};
+		BFA419C41CCC38380002FEC2 /* Word MagnetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA419C51CCC38380002FEC2 /* Word_MagnetsTests.swift */,
+				BFA419C71CCC38380002FEC2 /* Info.plist */,
+			);
+			path = "Word MagnetsTests";
+			sourceTree = "<group>";
+		};
+		BFA419CF1CCC38380002FEC2 /* Word MagnetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA419D01CCC38380002FEC2 /* Word_MagnetsUITests.swift */,
+				BFA419D21CCC38380002FEC2 /* Info.plist */,
+			);
+			path = "Word MagnetsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA419AC1CCC38380002FEC2 /* Word Magnets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA419D51CCC38380002FEC2 /* Build configuration list for PBXNativeTarget "Word Magnets" */;
+			buildPhases = (
+				BFA419A91CCC38380002FEC2 /* Sources */,
+				BFA419AA1CCC38380002FEC2 /* Frameworks */,
+				BFA419AB1CCC38380002FEC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Word Magnets";
+			productName = "Word Magnets";
+			productReference = BFA419AD1CCC38380002FEC2 /* Word Magnets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA419C01CCC38380002FEC2 /* Word MagnetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA419D81CCC38380002FEC2 /* Build configuration list for PBXNativeTarget "Word MagnetsTests" */;
+			buildPhases = (
+				BFA419BD1CCC38380002FEC2 /* Sources */,
+				BFA419BE1CCC38380002FEC2 /* Frameworks */,
+				BFA419BF1CCC38380002FEC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA419C31CCC38380002FEC2 /* PBXTargetDependency */,
+			);
+			name = "Word MagnetsTests";
+			productName = "Word MagnetsTests";
+			productReference = BFA419C11CCC38380002FEC2 /* Word MagnetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFA419CB1CCC38380002FEC2 /* Word MagnetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA419DB1CCC38380002FEC2 /* Build configuration list for PBXNativeTarget "Word MagnetsUITests" */;
+			buildPhases = (
+				BFA419C81CCC38380002FEC2 /* Sources */,
+				BFA419C91CCC38380002FEC2 /* Frameworks */,
+				BFA419CA1CCC38380002FEC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA419CE1CCC38380002FEC2 /* PBXTargetDependency */,
+			);
+			name = "Word MagnetsUITests";
+			productName = "Word MagnetsUITests";
+			productReference = BFA419CC1CCC38380002FEC2 /* Word MagnetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA419A51CCC38380002FEC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zain;
+				TargetAttributes = {
+					BFA419AC1CCC38380002FEC2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BFA419C01CCC38380002FEC2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BFA419AC1CCC38380002FEC2;
+					};
+					BFA419CB1CCC38380002FEC2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BFA419AC1CCC38380002FEC2;
+					};
+				};
+			};
+			buildConfigurationList = BFA419A81CCC38380002FEC2 /* Build configuration list for PBXProject "Word Magnets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA419A41CCC38380002FEC2;
+			productRefGroup = BFA419AE1CCC38380002FEC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA419AC1CCC38380002FEC2 /* Word Magnets */,
+				BFA419C01CCC38380002FEC2 /* Word MagnetsTests */,
+				BFA419CB1CCC38380002FEC2 /* Word MagnetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA419AB1CCC38380002FEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA419BB1CCC38380002FEC2 /* LaunchScreen.storyboard in Resources */,
+				BFA419B81CCC38380002FEC2 /* Assets.xcassets in Resources */,
+				BFA419B61CCC38380002FEC2 /* Main.storyboard in Resources */,
+				BFA419DF1CCC41820002FEC2 /* 518079-background-hd.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA419BF1CCC38380002FEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA419CA1CCC38380002FEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA419A91CCC38380002FEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA419B31CCC38380002FEC2 /* ViewController.swift in Sources */,
+				BFA419B11CCC38380002FEC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA419BD1CCC38380002FEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA419C61CCC38380002FEC2 /* Word_MagnetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA419C81CCC38380002FEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA419D11CCC38380002FEC2 /* Word_MagnetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA419C31CCC38380002FEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA419AC1CCC38380002FEC2 /* Word Magnets */;
+			targetProxy = BFA419C21CCC38380002FEC2 /* PBXContainerItemProxy */;
+		};
+		BFA419CE1CCC38380002FEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA419AC1CCC38380002FEC2 /* Word Magnets */;
+			targetProxy = BFA419CD1CCC38380002FEC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFA419B41CCC38380002FEC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA419B51CCC38380002FEC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFA419B91CCC38380002FEC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA419BA1CCC38380002FEC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFA419D31CCC38380002FEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA419D41CCC38380002FEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA419D61CCC38380002FEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Word Magnets/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csuwaterloo.Word-Magnets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFA419D71CCC38380002FEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Word Magnets/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csuwaterloo.Word-Magnets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFA419D91CCC38380002FEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Word MagnetsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csuwaterloo.Word-MagnetsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Magnets.app/Word Magnets";
+			};
+			name = Debug;
+		};
+		BFA419DA1CCC38380002FEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Word MagnetsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csuwaterloo.Word-MagnetsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Magnets.app/Word Magnets";
+			};
+			name = Release;
+		};
+		BFA419DC1CCC38380002FEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Word MagnetsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csuwaterloo.Word-MagnetsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Word Magnets";
+			};
+			name = Debug;
+		};
+		BFA419DD1CCC38380002FEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Word MagnetsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csuwaterloo.Word-MagnetsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Word Magnets";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA419A81CCC38380002FEC2 /* Build configuration list for PBXProject "Word Magnets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA419D31CCC38380002FEC2 /* Debug */,
+				BFA419D41CCC38380002FEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA419D51CCC38380002FEC2 /* Build configuration list for PBXNativeTarget "Word Magnets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA419D61CCC38380002FEC2 /* Debug */,
+				BFA419D71CCC38380002FEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA419D81CCC38380002FEC2 /* Build configuration list for PBXNativeTarget "Word MagnetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA419D91CCC38380002FEC2 /* Debug */,
+				BFA419DA1CCC38380002FEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA419DB1CCC38380002FEC2 /* Build configuration list for PBXNativeTarget "Word MagnetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA419DC1CCC38380002FEC2 /* Debug */,
+				BFA419DD1CCC38380002FEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA419A51CCC38380002FEC2 /* Project object */;
+}

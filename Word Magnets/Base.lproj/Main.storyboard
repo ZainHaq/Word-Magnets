@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Word_Magnets" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5G-Rb-HNO">
+                                <rect key="frame" x="529" y="542" width="51" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="addButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LVe-kr-nwG"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="l35-BK-qZ4">
+                                <rect key="frame" x="20" y="550" width="501" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="b5G-Rb-HNO" firstAttribute="leading" secondItem="l35-BK-qZ4" secondAttribute="trailing" constant="8" id="DB7-EB-JDf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="l35-BK-qZ4" secondAttribute="bottom" constant="20" id="Ego-KT-Auj"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="l35-BK-qZ4" secondAttribute="leading" id="Tgs-KY-UTs"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="l35-BK-qZ4" secondAttribute="leading" id="eZT-vc-LGg"/>
+                            <constraint firstItem="b5G-Rb-HNO" firstAttribute="centerY" secondItem="l35-BK-qZ4" secondAttribute="centerY" id="iel-jI-Yry"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l35-BK-qZ4" secondAttribute="trailing" constant="59" id="l7Z-mr-HV3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="newWordTextField" destination="l35-BK-qZ4" id="dgr-DV-oc3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="235"/>
+        </scene>
+    </scenes>
+</document>
